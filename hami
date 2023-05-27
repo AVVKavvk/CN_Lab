@@ -1,0 +1,61 @@
+// while (true)
+// {
+// string option ;
+// cout<<"Do you want to give reciever side string (Yes/No)"<<endl;
+
+
+// cin>>option;
+
+// if(option=="no" or option=="NO" or option=="No" or option=="nO")break;
+// else {
+// cout<<"please give reciever side input string"<<endl;
+// string r_i ;cin>>r_i;
+
+// if(r_i.length()-r!=a.length()){cout<<"Invalid string"<<endl; continue;}
+// else {reverse(r_i.begin(),r_i.end());
+// for(int i=0;i<m+r;i++){arr[i] = r_i[i] - 48;}
+
+// vector<int> _b;
+// int lomda = 0;
+// for(int i=0;i<m+r;i++){
+//     if(i==(pow(2,lomda)-1)){
+//        lomda++;
+//       // cout<<i<<" ";
+//         int sum = 0;
+//         int skip = i+2;
+//         bool f  = 0;
+//         int inner_loop = i+1;
+//     for(int k = i  ; k<m+r ; k+=skip){
+//         if(f==1)break;
+//         for(int j = 0 ; j<inner_loop ; j++){
+//            if(k+j>m+r-1){f=1;break;}
+//            if(arr[k+j]==-1){cout<<"R"<<inner_loop<<" ";}
+
+//            else cout<<arr[k+j]<<" ";
+
+//            if(arr[k+j]!=-1)sum+=arr[k+j];
+
+//         } k+=inner_loop-1;
+//     }
+// cout<<endl;
+
+//             if(sum%2==0)_b.push_back(0);
+//             else _b.push_back(1);
+
+
+//     }
+// }cout<<endl;
+
+// reverse(_b.begin(),_b.end());
+// cout<<"binary representation of changed bit is : ";
+// for(auto x : _b)cout<<x<<" ";cout<<endl;
+// cout<<"Decimal representation of changed bit is : ";
+// int dec = 0;
+// for(int i=0;i<_b.size();i++)dec+=(_b[i]*pow(2,_b.size()-i-1));
+// cout<<dec<<endl;
+// continue;
+// }
+
+
+// }
+// }

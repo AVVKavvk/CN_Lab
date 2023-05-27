@@ -1,0 +1,59 @@
+Q1.ip address-192.168.19.203  source port-63508
+
+Q2.Dest ip addr-128.119.245.12  port nos-63508,80
+
+Q4.seq no.-0    Sequence Number (raw): 656605615
+  'syn','ack','syn ack' are known as three-way    if syn flag is set,means it is syn degment
+
+Q5.syn seq no.=0 Sequence Number (raw): 3243028298
+Acknowledgment number (raw): 656605616  ack value=1  Ack 
+
+   ack value in syn-ack=seq no. of next ack      if syn,ack flag both set=>synack segment
+
+Q6.se no.=656605616
+
+it is same as ack value in tcp with [ACK]
+
+
+Q7.Sequence Number (raw): 656605616 Sequence Number (raw): 656606323 so on...
+
+**sleect thode rows which have src ip and dest ip as the ips of the pc and the website.
+
+time of each segment sent 1.763374
+
+time of ack received=1.967153  **colmns with 80->63508
+
+
+rtt=receive time-sent time
+
+
+
+
+Q8.length of 1st tcp segment=707
+length of 2nd tcp segment=1460...
+
+
+
+Q9.min amt of buffer space=calc window size=65536
+No,because segm length is less than window size
+
+
+Q10.there are no retransmitted segments as,the sequence no. is constantly increasing as each segment goes on.
+
+
+Q11.1460(check for [ACK] ones) .no
+
+
+
+Q12.
+1st tcp segm is 1 byte  (see [PSH,ACK] with seq=1,ack=1,so we are seeing *ack value*,ie=1)
+last segment is 153029 (row above "HTTP OK")
+
+So,total data=153029-1=153028
+
+transmission time for 1st segment=1.762351
+transmission time for 2nd segment=3.397798
+So,difference=3.397798-1.762351=1.635447
+
+So,throughput=153028/1.635447=93569.5256 MB/sec
+
